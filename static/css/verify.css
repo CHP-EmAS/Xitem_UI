@@ -1,0 +1,110 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #343434 !important;
+}
+.user_card {
+	height: 520px;
+	width: 390px;
+	margin-top: 150px;
+	margin-bottom: auto;
+	background: #464646;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #343434;
+	padding: 10px;
+	text-align: center;
+}
+.brand_logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 4px solid #ffc100;
+}
+.form_container {
+	margin-top: 100px;
+}
+.verify_btn {
+	width: 100%;
+	background: #ffc100;
+	color: white !important;
+}
+.verify_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.input-group-text {
+	font-family: FontAwesome !important;
+	font-size: 15px;
+	background: #ffc100 !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+	min-width: 36px;
+}
+.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: #ffc100 !important;
+}
+.navbar-dark {
+	background-color: #464646;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    max-height: 40px;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+
+   -o-object-fit: contain;
+   object-fit: contain; 
+}
+.welcomeMsg {
+	color: white !important;
+	text-align: center;
+}
+
+.errorMsg {
+	width: 390px;
+	margin-top: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.verifyEmail {
+	color: #ffc100 !important;
+	text-align: center;
+}
+
+.agbtext {
+	margin-top: 20px;
+	color: white !important;
+	text-align: center;
+	font-size: 12px;
+}
