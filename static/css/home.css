@@ -354,7 +354,7 @@ p {
 .header-hero-content {
  position:relative;
  z-index:9;
- padding-top:250px
+ padding-top:150px
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
  .header-hero-content {
