@@ -18,7 +18,7 @@ routes.get("/", function(req, res) {
 });
 
 routes.get("/files/app/Xitem.apk", function(req, res) {
-    res.sendFile(path.join(__dirname + '/../../static/app/Xitem 1.1.15.apk'));
+    res.sendFile(path.join(__dirname + '/../../static/app/Xitem 1.1.16.apk'));
 });
 
 routes.use("*", function(request: Request, response: Response) {
