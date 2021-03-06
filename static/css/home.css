@@ -399,7 +399,8 @@ p {
  margin-left:50px
 }
 .header-hero-content ul li:first-child {
- margin-left:0
+ margin-left:0;
+ width: 100%;
 }
 .header-hero-content .main-btn {
  margin-top:10px;
