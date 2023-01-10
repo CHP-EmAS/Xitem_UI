@@ -2,12 +2,11 @@
   "name": "xitem_website",
   "version": "0.1.0",
   "description": "Xitem Website",
-  "main": "src_typescript/xitem_api_server.ts",
+  "main": "out_javascript/xitem_ui_server.js",
   "scripts": {
-    "name": "printf 'Xitem Web UI'",
     "start": "pm2 start out_javascript/xitem_ui_server.js --name Xitem_Website",
     "stop": "pm2 delete Xitem_Website",
-    "dev": "nodemon src_typescript/xitem_ui_server.ts",
+    "dev_start": "pm2 start out_javascript/xitem_ui_server.js --name DEV_Xitem_Website",
     "build": "tsc --build --verbose",
     "clean": "tsc --build --clean"
   },
